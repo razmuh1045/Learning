@@ -1,0 +1,54 @@
+my-travel-website/
+│
+├── index.html                 ← Home page
+├── about.html                 ← (optional) About page
+├── contact.html               ← (optional) Contact page
+│
+├── africa/                    ← Continent folder
+│   ├── index.html             ← Main Africa page (list of countries)
+│   ├── egypt/
+│   │   ├── index.html         ← Egypt main page
+│   │   ├── cairo.html         ← City page under Egypt
+│   │   ├── alexandria.html
+│   │   └── images/
+│   │       ├── cairo.jpg
+│   │       └── pyramids.jpg
+│   ├── kenya/
+│   │   ├── index.html
+│   │   ├── nairobi.html
+│   │   └── images/
+│   │       └── nairobi-safari.jpg
+│   └── images/
+│       └── africa-map.jpg
+│
+├── asia/
+│   ├── index.html
+│   ├── japan/
+│   │   ├── index.html
+│   │   ├── tokyo.html
+│   │   └── images/
+│   │       ├── tokyo.jpg
+│   │       └── kyoto.jpg
+│   └── images/
+│       └── asia-map.jpg
+│
+├── europe/
+│   ├── index.html
+│   └── images/
+│       └── europe-map.jpg
+│
+├── assets/
+│   ├── css/
+│   │   ├── tailwind.css       ← Local Tailwind file
+│   │   └── style.css          ← Your custom CSS (if needed)
+│   ├── js/
+│   │   └── script.js          ← Optional JavaScript for dropdowns, etc.
+│   └── images/
+│       ├── logo.png
+│       ├── banner.jpg
+│       └── ads/
+│           ├── ad1.jpg
+│           ├── ad2.jpg
+│           └── ad3.jpg
+│
+└── README.md                  ← Optional notes/documentation
